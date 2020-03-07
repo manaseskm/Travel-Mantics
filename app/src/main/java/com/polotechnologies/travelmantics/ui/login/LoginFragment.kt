@@ -31,6 +31,7 @@ class LoginFragment : Fragment() {
     private fun setOnClickListeners() {
         mBinding.btnLogin.setOnClickListener {
             Toast.makeText(context, "Logging in ......", Toast.LENGTH_SHORT).show()
+            findNavController().navigate(R.id.action_loginFragment_to_homeFragment)
         }
         mBinding.btnLoginSignUp.setOnClickListener {
             findNavController().navigate(R.id.action_loginFragment_to_signUpFragment)

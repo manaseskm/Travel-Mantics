@@ -18,4 +18,19 @@
         <item name="boxStrokeColor">@color/colorPrimary</item>
     </style>
 
+    <style name="Widget.TravelMantics.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:textColor">@color/colorTextIcon</item>
+        <item name="titleTextColor">@color/colorTextIcon</item>
+        <item name="endIconTint">@color/colorTextIcon</item>
+        <item name="theme">@style/ThemeOverlay.MaterialComponents.Light</item>
+        <item name="colorButtonNormal">@color/colorTextIcon</item>
+        <item name="iconTint">@color/colorTextIcon</item>
+    </style>
+
+    <style name="AppTheme.Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:src">@drawable/ic_add</item>
+        <item name="tint">@android:color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="android:elevation">8dp</item>
+    </style>
 </resources>

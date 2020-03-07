@@ -10,4 +10,7 @@
     <string name="content_description_app_logo">Travel mantics logo</string>
     <string name="hint_user_name">User name</string>
     <string name="toolbar_tittle_places">Places To Visit</string>
+    <string name="toolbar_tittle_add_places">Add Place</string>
+    <string name="hint_location_name">Location Name</string>
+    <string name="hint_amount_to_save">Amount to Save</string>
 </resources>

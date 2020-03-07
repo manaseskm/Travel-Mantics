@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Travel Mantics</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_text_login">Login</string>
+    <string name="btn_text_sign_up">Sign Up</string>
+    <string name="content_description_app_logo">Travel mantics logo</string>
+    <string name="hint_user_name">User name</string>
 </resources>
